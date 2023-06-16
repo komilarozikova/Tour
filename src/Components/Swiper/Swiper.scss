@@ -1,0 +1,191 @@
+.swiper-container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.swiper-top {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-container h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 68px;
+
+    color: #2F2617;
+    width: 470px;
+    margin-right: 100px;
+}
+
+.swiper-container p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #747272;
+    padding-top: 20px;
+    width: 450px;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    /*changeable background color*/
+}
+
+.text-box {
+    width: 627px;
+    background: #F5F4F4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+
+
+.text-box button {
+    box-sizing: border-box;
+
+    border: 1px solid #D98400;
+    border-radius: 60px;
+    color: var(--mainColor);
+    padding: 3px 40px;
+    width: 200px;
+    // margin-top: 110px;
+}
+
+.text-box h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+
+
+    color: #2F2617;
+}
+
+.text-box p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #747272;
+
+    margin-top: -55px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .swiper-container {
+        margin-top: 90px;
+    }
+
+    .swiper-top {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .swiper-container h1 {
+        width: 295px;
+    }
+
+    .swiper-container p {
+        padding-top: 20px;
+        width: 280px;
+
+    }
+.container{
+    width: 100%;
+    position: relative;
+}
+.container img{
+    width: 380px;
+}
+    .text-box {
+    position: absolute;
+    width: 380px;
+    background: #F5F4F4;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: absolute;
+    top: 87px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5)
+    }
+    
+    
+    
+    .text-box button {
+        box-sizing: border-box;
+    
+        border: 1px solid #D98400;
+        border-radius: 60px;
+        color: var(--mainColor);
+        padding: 3px 40px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .text-box h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 52px;
+        /* identical to box height */
+        padding-bottom: 60px;
+    
+    
+        color: #000000;
+    }
+    
+    .text-box p {
+        font-family: 'Hind Madurai';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    
+        color: #000000;
+    
+        margin-top: -55px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
