@@ -120,11 +120,12 @@
     position: relative;
 }
 .container img{
-    width: 380px;
+    width: 340px;
 }
     .text-box {
     position: absolute;
-    width: 380px;
+   width: 345px;
+    height: 370px;
     background: #F5F4F4;
     border-radius: 17px;
     display: flex;
@@ -183,9 +184,9 @@
     .container {
         flex-direction: column;
     }
-
-    img {
-        margin-right: 0;
-        margin-bottom: 20px;
+    .container img{
+        width: 345px;
+        height: 500px;
     }
+  
 }
