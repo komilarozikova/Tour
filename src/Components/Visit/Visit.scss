@@ -1,0 +1,82 @@
+.visit-container {
+    height: 150vh;
+    width: 100%;
+}
+
+.visit-top {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 85px 0;
+}
+
+.visit-top h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 68px;
+    width: 500px;
+    color: #2F2617;
+    margin-right: 20px;
+
+}
+
+.visit-top p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    width: 430px;
+    color: #747272;
+    display: flex;
+    align-items: center;
+}
+
+
+.img-gallery {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(300px, 1fr);
+    gap: 30px;
+}
+
+.img-gallery>img {
+    display: block;
+    max-width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.6s ease;
+    width: 100%;
+}
+
+.img-gallery img:hover {
+    scale: 0.85;
+    box-shadow: 10px 26px 60px rgba(68, 77, 136, 0.3);
+}
+
+@media (max-width: 600px) {
+    .visit-container{
+        height: 380vh;
+    }
+    .visit-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .visit-top h1 {
+        width: 326px;
+        margin-right: 0;
+    }
+    .visit-top p{
+            width: 326px;
+        margin-right: 0;
+        }
+}
